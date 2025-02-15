@@ -1,0 +1,20 @@
+{
+  "name": "ai-movie-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config --experimental-json-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
